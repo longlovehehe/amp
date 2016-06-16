@@ -1,0 +1,32 @@
+h3.title{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+div#tree ul li{
+    padding: 5px 0;
+    padding-left: 25px;
+}
+div#tree a.title{
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 25px;
+    background: url("images/end.png") 4px 4px no-repeat;
+}
+
+div#tree a.child,div#tree a.childed{
+    background: url("images/open.png") 4px 4px no-repeat;
+}
+div#tree a.close{
+    background: url("images/close.png") 4px 4px no-repeat;
+}
+div#tree a.title:hover{
+    background-color: #EEE;
+}
+div#tree a.checkd,div#tree a.checkd:hover{
+    background-color: #2daebf;
+    color: #FFF;
+}
+form.form label{
+    display: inline-block;
+}

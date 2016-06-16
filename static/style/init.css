@@ -1,0 +1,63 @@
+.hiddenframe{
+    margin:  0 auto;
+    width: 1024px;
+    height: 450px;
+    background: #FFF;
+    color: #FFF;
+}
+input[disabled]{
+        display: none;
+}
+html,body{
+        width: 1024px;
+        font-size: 14px;
+        margin: 0 auto;
+        font-family: "微软雅黑",'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1{
+        font-size: 36px;
+        padding: 15px 0;
+        margin-bottom: 15px;
+}
+section.page{
+        display: block;
+        height: 100%;
+}
+div.buttons{
+        padding: 15px 0;
+        margin-top: 45px;
+}
+div.buttons a{
+        cursor: pointer;
+        font-size: 12px;
+        background: #55d455;
+        color: #FFF;
+        padding: 10px 20px;
+        display: inline-block;
+}
+
+div.license{
+        height: 80%;
+        overflow-y: scroll;
+        font-size: 14px;
+}
+
+form > label{
+        display: block;
+        margin: 5px 0;
+}
+form label span{
+        display: inline-block;
+        width: 150px;
+}
+label.error{
+        display: inline;
+        color: #C00;
+        font-size: 14px;
+}
+input[readonly] {
+        cursor: not-allowed;
+        color: #BBB;
+        border: none;
+        
+}

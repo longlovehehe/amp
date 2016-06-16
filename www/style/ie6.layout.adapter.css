@@ -1,0 +1,234 @@
+html.ie6 div.nosuper,
+html.ie7 div.nosuper,
+html.ie5 div.nosuper {
+  display: block !important;
+  background: yellowgreen;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 25px;
+}
+html.ie6 *,
+html.ie7 *,
+html.ie5 * {
+  line-height: 110%;
+}
+html.ie6 header h1.title,
+html.ie7 header h1.title,
+html.ie5 header h1.title {
+  text-align: left;
+}
+html.ie6 div.tips *,
+html.ie7 div.tips *,
+html.ie5 div.tips * {
+  padding: 0 15px;
+}
+html.ie6 div.userinfo h2.title,
+html.ie7 div.userinfo h2.title,
+html.ie5 div.userinfo h2.title {
+  margin: 0;
+  top: 0;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: table-cell;
+  background: #ffffff center center no-repeat;
+  color: #333333;
+  border: 2px solid #797979;
+  font-size: 20px;
+  text-align: center;
+  line-height: 4.3em;
+}
+html.ie6 div.userinfo .uname,
+html.ie7 div.userinfo .uname,
+html.ie5 div.userinfo .uname,
+html.ie6 div.userinfo .logininfo,
+html.ie7 div.userinfo .logininfo,
+html.ie5 div.userinfo .logininfo {
+  position: absolute;
+  left: 120px;
+  top: 0;
+}
+html.ie6 div.userinfo .logininfo,
+html.ie7 div.userinfo .logininfo,
+html.ie5 div.userinfo .logininfo {
+  top: 10px;
+}
+html.ie6 div.userinfo .admintype,
+html.ie7 div.userinfo .admintype,
+html.ie5 div.userinfo .admintype {
+  position: absolute;
+  left: 400px;
+  top: 0;
+  margin: 0;
+}
+html.ie6 header h1.title,
+html.ie7 header h1.title,
+html.ie5 header h1.title {
+  height: 70px;
+  padding: 5px 0;
+  padding-left: 160px;
+  background: none !important;
+}
+html.ie6 header h1 a,
+html.ie7 header h1 a,
+html.ie5 header h1 a {
+  display: block;
+  overflow: hidden;
+}
+html.ie6 header h1 a.e_name,
+html.ie7 header h1 a.e_name,
+html.ie5 header h1 a.e_name {
+  font-size: 24px;
+  color: #322e2b;
+  font-weight: 500;
+}
+html.ie6 header h1 a.title,
+html.ie7 header h1 a.title,
+html.ie5 header h1 a.title {
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0;
+  font-weight: normal;
+  color: #2b2b2d;
+}
+html.ie6 div.nav,
+html.ie7 div.nav,
+html.ie5 div.nav {
+  background: #b23e3e;
+}
+html.ie6 div.nav nav,
+html.ie7 div.nav nav,
+html.ie5 div.nav nav {
+  position: relative;
+}
+html.ie6 section.content div.minipage,
+html.ie7 section.content div.minipage,
+html.ie5 section.content div.minipage,
+html.ie6 .pagecontent,
+html.ie7 .pagecontent,
+html.ie5 .pagecontent,
+html.ie6 section.content,
+html.ie7 section.content,
+html.ie5 section.content {
+  min-height: 100% ;
+}
+html.ie6 h1.title a,
+html.ie7 h1.title a,
+html.ie5 h1.title a {
+  font-family: '微软雅黑';
+  color: #848589;
+  font-weight: 700;
+}
+html.ie6 div.userinfo h2.title,
+html.ie7 div.userinfo h2.title,
+html.ie5 div.userinfo h2.title {
+  padding-bottom: 0;
+}
+html.ie6 div.nav nav,
+html.ie7 div.nav nav,
+html.ie5 div.nav nav {
+  width: 800px;
+  margin: 0 auto;
+  background: transparent;
+}
+html.ie6 div.nav nav a:hover,
+html.ie7 div.nav nav a:hover,
+html.ie5 div.nav nav a:hover {
+  background: transparent;
+}
+html.ie6 div.nav nav a.active,
+html.ie7 div.nav nav a.active,
+html.ie5 div.nav nav a.active {
+  background: #fff;
+  color: #a43838;
+  box-shadow: 1px 1px 1px #111;
+  border-radius: 5px 5px 0 0;
+}
+html.ie6 section.content div.minipage,
+html.ie7 section.content div.minipage,
+html.ie5 section.content div.minipage {
+  width: 800px;
+  margin: 0 auto;
+  background: #FFF;
+}
+html.ie6 div.userinfo h2.title,
+html.ie7 div.userinfo h2.title,
+html.ie5 div.userinfo h2.title {
+  background: url("images/B1.png") no-repeat center !important;
+}
+html.ie6 div.pagecontent div.toptoolbar,
+html.ie7 div.pagecontent div.toptoolbar,
+html.ie5 div.pagecontent div.toptoolbar {
+  display: none;
+}
+html.ie6 div.pagecontent div.showblock,
+html.ie7 div.pagecontent div.showblock,
+html.ie5 div.pagecontent div.showblock {
+  display: block;
+}
+html.ie6 table.base tr td:first-child,
+html.ie7 table.base tr td:first-child,
+html.ie5 table.base tr td:first-child,
+html.ie6 table.base tr th:first-child,
+html.ie7 table.base tr th:first-child,
+html.ie5 table.base tr th:first-child {
+  display: none;
+}
+html.ie6 body section div.minipage div div.user_show div.content form div table,
+html.ie7 body section div.minipage div div.user_show div.content form div table,
+html.ie5 body section div.minipage div div.user_show div.content form div table {
+  overflow: visible;
+}
+html.ie6 section.content div.minipage,
+html.ie7 section.content div.minipage,
+html.ie5 section.content div.minipage {
+  min-height: calc(60%);
+  border-top: none;
+  border-bottom: none;
+}
+html.ie6 nav a.button,
+html.ie7 nav a.button,
+html.ie5 nav a.button {
+  background: transparent !important;
+}
+html.ie6 nav a.button:hover,
+html.ie7 nav a.button:hover,
+html.ie5 nav a.button:hover {
+  background: #FFF !important;
+  color: #a43838 !important;
+}
+html.ie6 section.content,
+html.ie7 section.content,
+html.ie5 section.content,
+html.ie6 div.header,
+html.ie7 div.header,
+html.ie5 div.header {
+  text-align: center;
+}
+html.ie6 div.minipage,
+html.ie7 div.minipage,
+html.ie5 div.minipage {
+  text-align: left;
+}
+html.ie6 div.nav nav,
+html.ie7 div.nav nav,
+html.ie5 div.nav nav {
+  text-align: left;
+}
+html.ie6 div.page,
+html.ie7 div.page,
+html.ie5 div.page {
+  position: relative;
+  width: 800px;
+}
+html.ie7 body {
+  overflow: hidden;
+}
+html.ie7 div.page {
+  width: 740px;
+}
+html.ie7 table.base th {
+  padding: 0 5px;
+  height: 12px;
+}
+/*# sourceMappingURL=ie6.layout.adapter.css.map */

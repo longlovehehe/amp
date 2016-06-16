@@ -1,0 +1,38 @@
+nav a.active {
+    background: #00bbec;
+}
+
+div.ListIcon.active {
+    border-color: #00bbec;
+}
+
+a.alink {
+    color: #00bbec;
+}
+div.ListIcon.active div.ListIconItem h3 a{
+        color: #00bbec;
+}
+
+div.ListIcon.active div.ListIconItem p{
+        color: #00bbec;
+}
+input,select{
+        background: #FFF;
+}
+.ui_tpicker_hour_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all{
+        border: 1px solid #848589 !important;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all{
+        border: 1px solid #848589 !important;
+}
+.ui_tpicker_minute_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all{
+        border: 1px solid #848589 !important;
+}
+.ui_tpicker_second_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all{
+        border: 1px solid #848589 !important;
+}
+.clickPage{
+    background: #CCCCCC;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,69 @@
+@media(max-width: 600px){
+        
+        nav a{
+                display: block;
+        }
+        body{
+                margin: 0;
+        }
+        section.content{
+                box-shadow: none;
+                -webkit-animation-name: anything;
+        }
+        section.content{
+                width: 100%;
+                overflow-x: hidden;
+        }
+        nav{
+                padding: 0;
+        }
+        div.buttons a.button,div.toolbar a.button,a.button{
+                display: block;
+                margin-top: 10px;
+        }
+        em.rich{
+                display: none;
+        }
+        .minipage{
+                position: static;
+                padding: 5px;
+                min-height: 0;
+        }
+
+        div.e_view div.ListIcon{
+                width: 90%;
+        }
+
+}
+@media(max-width: 800px){
+        h1.title{
+                padding: 0;
+                background: none;
+                margin: 0px;
+        }
+        ._GQT_icon_logo_1x120_png{
+                background: none !important;
+        }
+}
+@media(max-width: 900px){
+        table.base th.rich,table.base td.rich{
+                display: none;
+        }
+        header .login_tips{
+                display: block;
+                position: relative;
+                height: 15px;
+                margin-top: 10px;
+        }
+        header div.phone,header div.account{
+                top: 0;
+        }
+        div.toptoolbar{
+                display: block;
+                position: static;
+        }
+        div.toptoolbar a.button{
+                display: block;
+                margin-bottom: 10px;
+        }
+}

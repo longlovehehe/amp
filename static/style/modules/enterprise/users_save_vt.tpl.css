@@ -1,0 +1,31 @@
+#zdll{
+    position:relative;
+    display:block;
+    font-family:Microsoft YaHei;
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+    width:70px;
+    height:26px;
+    background:#848589;
+    /*    border:1px solid #999;*/
+    text-align:center;
+    line-height: 26px;
+    float:left;
+    cursor: pointer;
+
+}
+#fileSelector{
+    position:absolute;
+    left:0;
+    top:0;
+    width:80px;
+    height:35px;
+    z-index:999;
+    background-color:transparent ;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+    clear: both;
+
+}

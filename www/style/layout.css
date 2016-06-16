@@ -1,0 +1,141 @@
+div.lang {
+    right: 25px;
+}
+.page .lock {
+    cursor: not-allowed;
+    color: #CCC;
+}
+div.page div.turn {
+    top: 1px;
+}
+div.page div.num {
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+tr[title]:hover {
+    background: #848589 !important;
+    color: #FFF !important;
+}
+body .ui-tooltip {
+    border-width: 2px;
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    box-shadow: none;
+    border: 1px solid #000 !important;
+
+}
+.ui-tooltip-content{
+    white-space: normal;
+    word-break: break-all;
+}
+
+table.base tr > td:first-child,
+table.base tr > th:first-child,
+table.base tr > td {
+    display: table-cell !important;
+}
+input.cb {
+    top: 0;
+}
+table.base tr {
+    background: #dce0e1;
+}
+table.base tr td {
+    background: #F1F1F1 !important;
+}
+table.base tr:nth-child(2n+1) td {
+    background: #FFF  !important;
+}
+table.two tr td {
+    background: #FFF !important;
+}
+table.two tr:nth-child(2n+1) td {
+    background: #F1F1F1  !important;
+}
+table.base tr:hover td {
+    background: #848589 !important;
+    border-color: #df273f !important;
+}
+table.base td.none {
+    display: none !important;
+}
+td div {
+    margin: 0;
+}
+.icon {
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    background: no-repeat;
+}
+.hand {
+    width: 24px;
+    height: 24px;
+    background: url("../images/pic_05.png") transparent no-repeat center center;
+}
+
+div.page,
+table.base th {
+    padding: 0px 0px 0px 5px;
+}
+body > section > div.minipage > div > div.p20 {
+    top: 134px;
+}
+.ui-datepicker {
+    z-index: 20 !important;
+}
+.pagecontent {
+    position: relative;
+}
+div.navicon {
+    position: relative;
+    top: -15px;
+    left: -25px;
+}
+div.navicon div.mask_e_view {
+    height: 115px;
+}
+nav.mininav {
+    background: #F1F1F1;
+    margin: 10px 10px 0px 10px;
+}
+nav.mininav a {
+    font-size: 12px;
+    color: #0072c6;
+    padding-left: 10px;
+}
+nav.mininav a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+p.tips {
+    background: #F1F1F1;
+    padding: 5px;
+    line-height: 16px;
+}
+.ctips{
+    cursor: pointer;
+}
+#tablebox111  tr.sel{
+    background: #848589 !important;
+
+}
+#tablebox111  tr.sel td{
+    background: transparent !important;
+}
+div.show{
+    max-height: 450px;
+    display: block;
+    overflow-y: scroll;
+}
+div.show hr{
+    margin: 10px 0;
+}
+footer{
+    display: none;
+    width: 320px;
+    margin: 0 auto;
+}

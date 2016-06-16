@@ -1,0 +1,44 @@
+html{
+        width: auto;
+        overflow: auto;
+}
+body{
+    width: auto;
+    margin: 0 auto;
+    /*overflow: auto;*/
+}
+span.info{
+        background: green;
+}
+.minipage{
+        height: auto;
+}
+section.content{
+    height: auto;
+}
+
+div.notice_content{
+        width: 800px;
+}
+.ellipsis{
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    overflow: hidden;
+    display: inline;
+}
+.ellipsis2{
+        word-wrap: break-word;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        padding: 0;margin: 0;
+        position: relative;
+        top: 3px;
+}
+.ui-tooltip{
+
+}
+footer {
+        display: none;
+}

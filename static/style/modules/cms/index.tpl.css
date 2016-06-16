@@ -1,0 +1,200 @@
+label{
+    display: inline;
+    /*        width:50px;
+            margin-bottom: 10px; */
+}
+label span{
+    min-width: 140px;
+    display: inline-block;
+}
+label p.msg{
+    display: inline-block;
+    padding-left: 10px;
+    color: #A1A1A1;
+}
+label p.msg.error{
+    color: #C00;
+}
+#ptt_soft{
+}
+div.line{
+    display: inline;
+}
+input[type="text"],input[type="password"]{
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+    width: 220px;
+}
+select{
+    padding: 5px 10px;
+    width: 245px;
+}
+select.long{
+    display: block;
+    width: 100%;
+}
+.middle_layout{
+    text-align:center;
+    margin:0 auto;
+    width:400px;
+    height:100px;
+    border:2px solid #c00;
+}
+/*a:hover{background-color:#A43838;color:#fff}*/
+
+#zdll{
+    position:relative;
+    display:block;
+    font-family:Microsoft YaHei;
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+    width:70px;
+    height:26px;
+    background:#848589;
+    /*    border:1px solid #999;*/
+    text-align:center;
+    line-height: 26px;
+    float:left;
+    cursor: pointer;
+
+}
+
+#fileSelector{
+    position:absolute;
+    left:0;
+    top:0;
+    width:80px;
+    height:35px;
+    z-index:999;
+    background-color:transparent ;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+
+}
+#ios-table{
+    width:100%;
+    table-layout:fixed;
+}
+
+#android-table{
+    width:100%;
+    table-layout:fixed;
+}
+
+div .t-android{
+    float:right;
+    /*overflow:auto;*/
+    /*overflow-x:hidden;*/
+}
+div .t-android table{
+    /*overflow:auto;*/
+    /*        overflow-x:hidden;*/
+    width:650px;
+}
+div .t-android th{
+    background-color:#DCE0E1;
+    fimlay-font:微软雅黑;
+    color:#535353;
+    font-weight:bold;
+    text-align:left;
+    vertical-align: middle;
+    line-height:34px;
+    height:34px;
+
+}
+div .t-android tr{
+    vertical-align: middle;
+    height:25px;
+}
+div .t-android td{
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    /*overflow:hidden; 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(…) ；需与overflow:hidden;一起使用。*/
+    vertical-align: middle;
+    cursor: pointer;
+    height:25px;
+}
+.black_overlay{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background: rgba(0,0,0,0.6);
+    z-index:1001;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter: alpha(opacity=50);
+}
+.white_content {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 500px;
+    height: 250px;
+    border: 4px solid #A43838;
+    background-color: white;
+    z-index:1002;
+    overflow: none;
+}
+div .conhei{
+    height:15px;
+}
+div .nav_head{
+    border-left : 1px solid #DCE0E1;
+    border-right : 1px solid #DCE0E1;
+    width: 650px;
+}
+
+
+#light .c_dir{
+    color:#535353;
+    font-weight:bold;
+    height:30px;
+
+    line-height:30px;
+    padding-right: 10px;
+    border-bottom:2px solid #ccc;
+}
+#light .block{
+    margin:10px 0px 0px 20px;
+}
+input[name='button']{
+    background: none repeat scroll 0 0 #848589;
+    border: medium none;
+    color: #fff;
+    margin:-2px;
+    width:125px;
+    height:29px;
+    cursor: pointer;
+}
+
+div .control{
+    /**/
+    width:650px;
+    overflow:auto;
+    border:1px solid #ccc;
+    height:184px;
+}
+div .fk{
+    margin-top: 20px;
+}
+div .t-nav{
+    border: 1px #A1A1A1 solid;
+}
+div .t-nav span{
+    width:100px;
+}
+td{
+    width:100%;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(…) ；需与overflow:hidden;一起使用。*/
+}

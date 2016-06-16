@@ -1,0 +1,31 @@
+.none {
+    display: none;
+}
+body,
+a,
+h2,
+h1 {
+    font-family: "Microsoft JhengHei", "微软雅黑", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 20px;
+    color: #55d455;
+    font-weight: normal;
+}
+.login {
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.buttons a {
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #55d455;
+    color: #FFF;
+    padding: 10px 20px;
+    display: inline-block;
+}
+body {
+    text-align: center;
+    margin-top: 20%;
+}
+/*# sourceMappingURL=init_shell.css.map */

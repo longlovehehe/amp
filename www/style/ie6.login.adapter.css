@@ -1,0 +1,92 @@
+html.ie6,
+html.ie7,
+html.ie5 {
+    width: 100%;
+    background: #FFF;
+    font-size: 12px;
+}
+html.ie6 div.nosuper,
+html.ie7 div.nosuper,
+html.ie5 div.nosuper {
+    display: block !important;
+    background: yellowgreen;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 25px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+html.ie6 body,
+html.ie7 body,
+html.ie5 body {
+    width: 100%;
+}
+html.ie6 div.login_content,
+html.ie7 div.login_content,
+html.ie5 div.login_content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+html.ie6 div.login,
+html.ie7 div.login,
+html.ie5 div.login {
+    width: 760px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 120px;
+    overflow: hidden;
+    position: static;
+}
+html.ie6 div.login section.ad,
+html.ie7 div.login section.ad,
+html.ie5 div.login section.ad {
+    width: 210px;
+    text-align: left;
+}
+html.ie6 div.login section.ad h1,
+html.ie7 div.login section.ad h1,
+html.ie5 div.login section.ad h1 {
+    font-weight: normal;
+}
+html.ie6 div.login section.ad a.logo,
+html.ie7 div.login section.ad a.logo,
+html.ie5 div.login section.ad a.logo {
+    width: 150px;
+    background: url("../images/GQT_icon_logo_1.png") no-repeat 10px 10px !important;
+    height: 50px;
+}
+html.ie6 div.login section.login,
+html.ie7 div.login section.login,
+html.ie5 div.login section.login {
+    text-align: left;
+}
+html.ie6 div.login form#login1,
+html.ie7 div.login form#login1,
+html.ie5 div.login form#login1 {
+    width: 100px;
+    left: 0;
+}
+html.ie6 div.login form#login1 input,
+html.ie7 div.login form#login1 input,
+html.ie5 div.login form#login1 input {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-left: 25px;
+    position: relative;
+    top: 5px;
+    left: 45px;
+}
+html.ie6 div.login form#login1 a.login,
+html.ie7 div.login form#login1 a.login,
+html.ie5 div.login form#login1 a.login {
+    left: 0;
+    position: relative;
+    margin-left: 0;
+    width: 120px;
+}
+/*# sourceMappingURL=ie6.login.adapter.css.map */

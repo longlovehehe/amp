@@ -1,0 +1,15 @@
+a.view{
+    background: transparent url("./images/view.png") no-repeat scroll center center;
+    width: 24px;
+    height: 24px;
+}
+a.view:hover{
+    background: transparent url("./images/view_pass.png") no-repeat scroll center center;
+    width: 24px;
+    height: 24px;
+}
+a.view:visited{
+    background: transparent url("./images/view_click.png") no-repeat scroll center center;
+    width: 24px;
+    height: 24px;
+}

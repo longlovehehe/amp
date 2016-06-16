@@ -1,0 +1,231 @@
+.tips{
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    z-index: 5;
+    text-align: center;
+}
+.tips > span{
+    margin: 0 auto;
+    background: #C00;
+    color: #FFF;
+    padding: 10px 15px;
+    display: inline-block;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 13px;
+    background: #FFF;
+}
+.animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*
+body.lang_en_US nav > a{
+        background: url("img/base/GQT_icon_logo_1_en.png") no-repeat -18px 10px;
+        background-size: 120px auto;
+}
+*/
+div.lang{
+    position: absolute;
+    background: #00bbf1;
+    right: 5px;
+    padding: 4px 5px;
+    border-radius:  0 0px 2px 2px;
+}
+div.lang a{
+    cursor: pointer;
+    color: #FFF;
+}
+div.lang a:hover{
+    text-decoration: underline;
+}
+div.info{
+    padding: 5px 0;
+    background: #00bbf1;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+/*login*/
+
+h1{
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+html.login{
+    height: 100%;
+    overflow: hidden;
+}
+html.login div.login{
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+section.login{
+    border: 1px dotted #A1A1A1;
+    background: #FFF;
+    width: 430px;
+    position: absolute;
+    right: 25px;
+    padding: 35px 45px 30px 65px;
+}
+a.button{
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    min-width: 120px;
+    background: #00bbf1;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #00bbf1;
+    color: #FFF;
+    border-radius: 1px;
+}
+a.button:hover{
+    background: #FFF;
+    color: #00bbf1;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+label {
+    position: relative;
+}
+label span.title{
+    width: 60px;
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+input{
+    margin-left: 80px;
+    width: 250px;
+    padding: 5px 10px;
+    border: 1px solid #A1A1A1;
+}
+nav{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+nav > a{
+    display: inline-block;
+    height: 34px;width: 150px;
+    background: url("img/base/home_img_03.png");
+    background: url("img/base/GQT_icon_logo_1.png") no-repeat 10px 10px;
+    background-size: 120px auto;
+    height: 60px;
+}
+a.login{
+    margin: 45px 0 0 80px;
+}
+section.ad{
+    position: absolute;
+}
+div.window{
+
+}
+
+div.window div.mask{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #DDD;
+    opacity: .5;
+}
+
+div.window div.content{
+    background: #FFF;
+    width: 460px;
+    margin: 0 auto;
+}
+
+html.login div.login{
+    background: #FFF;
+    height: 360px;
+}
+section.ad{
+    top: 59px;
+    left: 64px;
+}
+section.login{
+    border: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 250px;
+    padding-bottom: 35px;
+}
+section.login{
+    border-left: 1px dotted #CCC;
+}
+a.login{
+    margin-top: 20px;
+}
+
+html.login div.login{
+    position: relative;
+    z-index: 2;
+}
+div.bkimg{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    background: #EEE url("images/bkimg.jpg") no-repeat center;
+    background-size: cover;
+}
+form#login1{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin-left: 390px;
+    border-left: 2px dotted #CCC;
+}
+section.login{
+    right: auto;
+    top: 60px;
+    left: 150px;
+    padding: 0;
+    border: 1px solid #CCC;
+    padding: 52px 142px 17px 46px;
+    width: auto;
+}
+html.login div.login{
+    border: 1px solid #111;
+    box-shadow: 5px 5px 2px rgba(1,1,1,.1);
+}
+html.login div.login{
+    width: 1137px;
+}
+
+section.ad{
+    top: 5px;
+    left: 5px;
+}
+html.login div.login{
+    overflow: hidden;
+    width: 760px;
+}
+form#login1{
+    margin-left: 250px;
+}
+section.login{
+    position: absolute;
+    left: 15px;top: 32px;
+    padding: 25px 55px;
+}
+html.login div.login{
+    height: 250px;
+}

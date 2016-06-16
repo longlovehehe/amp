@@ -1,0 +1,14 @@
+.cost_bg{
+    border:1px solid #ccc;
+    overflow:hidden;
+    zoom:1;
+    margin: 5px 0px 0px;
+    clear: both;
+}
+
+.autofg{
+    width: 240px;
+    padding: 10px 0px;
+    float: left;
+    font-weight: bold;
+}
